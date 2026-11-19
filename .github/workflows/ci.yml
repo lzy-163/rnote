@@ -77,4 +77,4 @@ jobs:
         if: success() || failure()
         with:
           name: test-results
-          path: target/nextest/ci/test-report-junit.xml
+          path: _mesonbuild/target/nextest/ci/test-report-junit.xml
